@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
     @include('partials._head')
     @yield('extra_css')
   </head>
@@ -10,9 +10,9 @@
     @include('partials._nav')
 
 
-	  <div class="container">
-		  @yield('container')
-	  </div>
+    <div class="container">
+    	@yield('container')
+    </div>
 
 
 
